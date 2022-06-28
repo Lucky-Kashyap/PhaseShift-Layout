@@ -1,0 +1,201 @@
+
+
+/* Media Query */
+
+@media only screen and (max-width:1200px){
+
+    
+    .box1{
+        width: 45%;
+        height: 400px;
+        /* margin: 0; */
+    }
+    .btn2{
+        margin-left: 130px;
+    }
+    .integral-box{
+        height: 1900px;
+    }
+
+}
+
+@media only screen and (max-width:1150px){
+    .integral-box{
+        height: 2000px;
+    }
+    .logo h1{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width:1120px){
+    .btn2{
+        margin-left: 100px;
+    }
+    .nav ul li{
+        font-size: 14px;
+    }
+    .box1{
+        height: 350px;
+    }
+}
+@media only screen and (max-width:1002px){
+    .section-box{
+        width: 90%;
+    }
+    .nav ul li{
+        padding: 5px 10px;
+    }
+    .section-box .heading-box p{
+        font-size: 16px;
+    }
+    .para-box .phase{
+        font-size: 20px;
+    }
+    .footer-full-width .footer p{
+        font-size: 14px;
+        font-weight: 200;
+        
+    }
+    .footer-full-width .footer span{
+        font-size: 16px;
+    }
+    .social-icon .fa{
+        font-size: 16px;
+    }
+    .logo h1{
+        font-size: 16px;
+    }
+    .four-box .wrinch-box .fa,p{
+        font-size: 20px;
+    }
+    .pink-box h1{
+        font-size: 20px;
+    }
+    .pink-box p{
+        font-size: 16px;
+    }
+    .four-box h2{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:850px){
+    .logo h1{
+        width: 40%;
+        font-size: 14px;
+    }
+    .nav ul li{
+        font-size: 14px;
+        padding: 5px 4px;
+    }
+    .btn2{
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .box1{
+        margin-left: 35px;
+        width: 90%;
+        height: 500px;
+    }
+    .box1 p{
+        line-height: 30px;
+    }
+    .btn2{
+        margin-left: 240px;
+    }
+    .wrapper{
+        height: 1200px;
+    }
+    .integral-box{
+        height: 4500px;
+    }
+}
+
+@media only screen and (max-width:730px){
+    .nav ul li{
+        font-size: 14px;
+        font-weight: 300;
+        padding:4px 5px;
+    }
+    .nav{
+        width: 60%;
+    }
+    .logo h1{
+        width: 30%;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    .btn2{
+        margin-left: 180px;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .btn2{
+        margin-left: 160px;
+    }
+    .box1{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .btn2{
+        margin-left:140px;
+    }
+    .box1{
+        margin-left: 20px;
+    }
+    .four-box .wrinch-box{
+        width: 100%;
+    }
+    .pink-box .send{
+        width: 100%;
+        font-size: 15px;
+        padding: 9px;
+    }
+    .pink-box .btn-box{
+        width: 50%;
+    }
+    textarea{
+        width: 100%;
+        height: 200px;
+    }
+    .pink-box input{
+        width: 100%;
+        height: 40px;
+    }
+    .footer-full-width .footer{
+        width: 100%;
+    }
+    .footer-full-width .footer p{
+        font-size: 14px;
+    }
+    .nav ul{
+        display:none;
+        position: absolute;
+        top: 30px;
+        padding: 2px;
+    }
+    .nav ul li{
+        width: 100%;
+        color: rgb(150, 184, 71);
+        background-color: rgba(46, 32, 45,1);
+        line-height: 40px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+}
+    .nav .fa{
+        display: block;
+        font-size: 20px;
+        color: bisque;
+        margin-top: 14px;
+        margin-left: 240px;
+    }
+}
